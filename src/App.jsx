@@ -263,7 +263,7 @@ export default function App() {
       className="relative rounded-xl shadow-xl overflow-hidden"
     >
       <img
-        src="/images/crew.jpg"
+        src="/public/images/crew.jpg"
         alt="Our Cleaning Crew"
         className="w-full h-64 md:h-80 object-cover transform hover:scale-105 transition duration-500"
       />
@@ -287,8 +287,8 @@ export default function App() {
           Our Work Speaks for Itself
         </h2>
         <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto relative z-10">
-          {["/images/clean1.jpg", "/images/clean2.jpg", "/images/clean3.jpg",
-           "/images/clean4.jpg", "/images/clean5.jpg", "/images/clean6.jpg"].map((img, i) => (
+          {["/public/images/clean1.jpg", "/public/images/clean2.jpg", "/public/images/clean3.jpg",
+           "/public/images/clean4.jpg", "/public/images/clean5.jpg", "/public/images/clean6.jpg"].map((img, i) => (
             <motion.div
               key={i}
               variants={fadeUp}
