@@ -10,10 +10,10 @@ export default function App() {
 
     emailjs
       .sendForm(
-        "service_xxxxxx", // EmailJS service ID
-        "template_xxxxxx", // EmailJS template ID
+        "service_l4z89tl", // EmailJS service ID
+        "template_2gnrkh1", // EmailJS template ID
         form.current,
-        "publicKey_xxxxxx" // EmailJS public key
+        "qfeJyGAl1NmZJ7-yq" // EmailJS public key
       )
       .then(
         () => {
