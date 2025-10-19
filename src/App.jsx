@@ -287,7 +287,7 @@ export default function App() {
           Our Work Speaks for Itself
         </h2>
         <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto relative z-10">
-          {["./images/clean1.jpg", "/images/clean2.jpg", "/images/clean3.jpg",
+          {["/images/clean1.jpg", "/images/clean2.jpg", "/images/clean3.jpg",
            "/images/clean4.jpg", "/images/clean5.jpg", "/images/clean6.jpg"].map((img, i) => (
             <motion.div
               key={i}
